@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ovid-19-tracker/static/css/main.073c9b0a.css",
-    "main.js": "/ovid-19-tracker/static/js/main.1fb41fda.js",
-    "static/media/covid-19_logo.jpg": "/ovid-19-tracker/static/media/covid-19_logo.f1338a412f4310a81eac.jpg",
-    "index.html": "/ovid-19-tracker/index.html",
-    "main.073c9b0a.css.map": "/ovid-19-tracker/static/css/main.073c9b0a.css.map",
-    "main.1fb41fda.js.map": "/ovid-19-tracker/static/js/main.1fb41fda.js.map"
+    "main.css": "/kaleem-uet/covid-19-tracker/static/css/main.073c9b0a.css",
+    "main.js": "/kaleem-uet/covid-19-tracker/static/js/main.03ff0b2e.js",
+    "static/media/covid-19_logo.jpg": "/kaleem-uet/covid-19-tracker/static/media/covid-19_logo.f1338a412f4310a81eac.jpg",
+    "index.html": "/kaleem-uet/covid-19-tracker/index.html",
+    "main.073c9b0a.css.map": "/kaleem-uet/covid-19-tracker/static/css/main.073c9b0a.css.map",
+    "main.03ff0b2e.js.map": "/kaleem-uet/covid-19-tracker/static/js/main.03ff0b2e.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.1fb41fda.js"
+    "static/js/main.03ff0b2e.js"
   ]
 }
