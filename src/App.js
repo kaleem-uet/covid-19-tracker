@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import React,{useState,useEffect,useCallback} from 'react';
 import './App.css';
+import ButtonAppBar from './components/AppBar';
+import FullWidthGrid from './components/Card';
+import InputWithIcon from './components/Search';
+import StickyHeadTable from './components/CountryWiseData'
+
 
 function App() {
+  const [Country,setCountry]=React.useState("Pakistan");
+  
+ useEffect(() => {
+  console.log("this is COuntry from app", Country);
+      }, [Country])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+
+      <ButtonAppBar/>
+      {/* <FullWidthGrid Country={Country}/> */}
+       <InputWithIcon/>
+    {/* <StickyHeadTable/> */}
+
+   
+    </>
+  
+
   );
 }
 
